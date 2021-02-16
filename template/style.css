@@ -1,0 +1,152 @@
+html{
+    font-size: 62,5%; /* 16px  x 62.5 = 10px = 1rem */
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Layout */
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'botone'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 3.5rem 2rem 1fr 3rem;
+    height: 100%;
+}
+
+header{
+    grid-area: header;
+    background-color: #ffffff;
+}
+
+
+botone{
+    grid-area: botone;
+    background-color: #dadada;
+    color: #414141;
+}
+
+
+main{
+    grid-area: main;
+    padding: 0.5rem;
+    color: #414141;
+}
+footer{
+    grid-area: footer;
+    background-color: #dadada;
+    font-size: 1rem;
+    color: #414141;
+}
+
+/* Common */
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+  }
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #313131;
+}
+
+/* Header */
+header a{
+    color: #414141;
+    font-size: 2rem;
+    font-weight: bold ;
+    padding: 0.4rem;
+    
+}
+
+
+/* Menu */
+botone a {
+    color: #414141;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+
+/* Main */
+main a{
+    color: #414141;
+    font-size: 1rem;
+    
+    
+}
+
+
+
+.cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.row.center {
+    justify-content: center;
+}
+
+/* Image */
+img {
+    border-radius: 0.5rem;
+  }
+  img.medium {
+    max-width: 10rem;
+    width: 100%;
+  }
+  
+  /* Card */
+  .card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f4f4f4   ;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    
+    
+  }
+  .card-body {
+    padding: 0.3rem;
+    size width:  50px;
+    size height: 50px;
+    color: #000000;
+    font-size: 1rem;
+    
+   
+    
+  }
+  .card-body > * {
+    margin-bottom: 1rem;
+    
+  }
+  .price {
+    font-size: 1rem;
+  }
+  /* Rating */
