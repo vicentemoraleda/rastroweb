@@ -34,7 +34,7 @@ function App() {
               <Product key={product._id} product={product}></Product>
             ))}
 </div>
-
+</div>
 
 </main>
 
@@ -46,7 +46,7 @@ Todos los derechos reservados
 
 
 </div> 
-  );
-}
+
+  )}
 
 export default App;
