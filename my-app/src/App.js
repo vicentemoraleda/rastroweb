@@ -1,7 +1,7 @@
 
-import React from `react`;
-import Producto from `./components/Producto`;
-import data from `./data`;
+import React from 'react';
+import Producto from './components/Producto';
+import data from './data';
 
 function App() {
   return (
