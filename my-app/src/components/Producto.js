@@ -13,14 +13,8 @@ export default function Producto(props) {
     <a href={`/producto/${producto._id}`}>
         {producto.nombre}</a>
 
-
-        
-
-
-
-
         <div className="precio">{producto.precio}€</div>
-        </div>
+    </div>
     </div>
     );
 }
